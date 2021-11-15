@@ -1,6 +1,5 @@
 import openpyxl as xl
 
-name_of_file = ''
 wb = xl.load_workbook('Attendance Form Responses.xlsx')
 sheet = wb['Form Responses 1']
 names = {}
